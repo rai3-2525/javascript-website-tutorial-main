@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(239,139,182) ,rgb(49,182,160));
+  overflow: hidden;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  align-items: center;
+  font-weight: 550;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+  margin-right: 12px;  
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.nav-links ul a {
+  font-weight: 600;
+  color: white;
+  text-decoration: nones;
+  transition: 0.2s;
+}
+
+.nav-links ul a:hover {
+  color: rgb(239,139,182);
+}
+
+.information {
+  width: 1000px;
+  height: 1000px;  
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+  /* top: 40%;
+  left: -25%;
+  transform: translateY(-30%); */
+}
+
+#circle {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  background: rgb(227,223,220);
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+
+.feature {
+  position: absolute;
+  color: white;
+}
+
+.feature div {
+  margin-left: 20px;
+}
+
+.feature div a{
+  margin-top: 8px;
+}
+
+.feature img {
+  width: 70px;
+}
+.one {
+  display: flex;
+  top: 450px;
+  right: 70px;
+}
+.two {
+  display: flex;
+  top: 100px;
+  left: 340px;
+}
+
+.three {
+  display: flex;
+  bottom: 100px;
+  left: 340px;
+}
+
+.four {
+  display: flex;
+  top: 450px;
+  left: 70px;
+}
+
+.pc {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30%;
+}
